@@ -1,32 +1,29 @@
 {
-	"name": "api",
-	"version": "1.0.0",
-	"description": "Starter project for a REST API with Node.js, Restify & MongoDB 🔋",
-	"main": "index.js",
-	"scripts": {
-		"start": "node index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"engines": {
-		"node": "8.x"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/GetStream/node-restify-mongo-api.git"
-	},
-	"keywords": ["API", "Boilerplate", "MongoDB", "Restify"],
-	"author": "Nick Parsons <nparsons08@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/GetStream/node-restify-mongo-api/issues"
-	},
-	"homepage": "https://github.com/GetStream/node-restify-mongo-api#readme",
-	"dependencies": {
-		"mongoose": "^4.12.0",
-		"mongoose-string-query": "^0.2.5",
-		"mongoose-timestamp": "^0.6.0",
-		"restify": "^6.0.1",
-		"restify-errors": "^5.0.0",
-		"restify-plugins": "^1.6.0"
-	}
+  "name": "express-locallibrary-tutorial",
+  "version": "0.0.0",
+  "engines": {
+    "node": "10.15.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "compression": "^1.7.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.15.1",
+    "http-errors": "~1.6.2",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.13",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
